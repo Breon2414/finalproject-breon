@@ -26,13 +26,23 @@
 	</div> <!-- below-site-header -->
 </div><!-- #page -->
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<form action="http://localhost:8888/final-project/subscribed/">
+  <div class="container">
+    <h2>Subscribe to our Newsletter</h2>
+  </div>
 
-<div class="icon-bar">
-  <a href="#https://www.facebook.com/profile.php?id=100009823176323 class="facebook"><i class="fa fa-facebook"></i></a> 
-  <a href="https://twitter.com/Breeeezy6" class="twitter"><i class="fa fa-twitter"></i></a> 
-  <a href="https://www.linkedin.com/in/breon-perry/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-</div>
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Breon's Newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
 
 <?php wp_footer(); ?>
 </body>

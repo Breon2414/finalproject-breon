@@ -6,6 +6,32 @@ Template: catch-foodmania
 Text Domain: catch-foodmania-child
 */
 
+form {
+    border: 4px solid #FFFFFF;
+}
+
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: #FFFFFF;
+    color: white;
+    border: none;
+}
+
+h2{color: #FFFFFF;
+	font-size: 15px;
+	}
+
+.background{color: #E5E4E4}
+
 .icon-bar {
   position: fixed;
   top: 50%;
